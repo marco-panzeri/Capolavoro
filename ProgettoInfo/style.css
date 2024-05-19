@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Colore di sfondo */
+  color: #333;
+}
+
+header {
+  background-image: url('https://img.freepik.com/premium-photo/beautiful-mountain-winter-landscape-background-setting-sun-ski-slope-with-ski-tracks_160169-111.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #004080;
+}
+
+.navbar {
+  background-color: black; /* Colore di sfondo della barra di navigazione */
+  padding: 15px; /* Spaziatura interna della barra di navigazione */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Colore del testo del link nella barra di navigazione */
+  font-weight: bold; /* Grassetto per i link della barra di navigazione */
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline; /* Sottolinea il testo del link quando passi sopra con il mouse */
+  color: #ddd;
+}
+
+.form-inline {
+  margin-top: 10px; /* Aggiunge uno spazio sopra il form di ricerca */
+}
+
+.form-control {
+  width: 200px; /* Larghezza del campo di ricerca */
+}
+
+.btn-outline-success {
+  color: #28a745; /* Colore del testo del pulsante di ricerca */
+  border-color: #28a745; /* Colore del bordo del pulsante di ricerca */
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  color: #333;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sezione-immagini {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.immagine {
+  height: 377px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.testo {
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.testo a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.testo a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .immagine {
+      height: 200px;
+  }
+}
